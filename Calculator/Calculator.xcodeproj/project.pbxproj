@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45377AD1188522B60017EDF8 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 45377AD0188522B60017EDF8 /* button.png */; };
+		45377AD31885231E0017EDF8 /* button2.png in Resources */ = {isa = PBXBuildFile; fileRef = 45377AD21885231E0017EDF8 /* button2.png */; };
 		45B36F6D18845A0E00B902E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B36F6C18845A0E00B902E3 /* Foundation.framework */; };
 		45B36F6F18845A0E00B902E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B36F6E18845A0E00B902E3 /* CoreGraphics.framework */; };
 		45B36F7118845A0E00B902E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B36F7018845A0E00B902E3 /* UIKit.framework */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		45377AD0188522B60017EDF8 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		45377AD21885231E0017EDF8 /* button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button2.png; sourceTree = "<group>"; };
 		45B36F6918845A0E00B902E3 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45B36F6C18845A0E00B902E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		45B36F6E18845A0E00B902E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -126,6 +130,8 @@
 		45B36F7318845A0E00B902E3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				45377AD0188522B60017EDF8 /* button.png */,
+				45377AD21885231E0017EDF8 /* button2.png */,
 				45B36F7418845A0E00B902E3 /* Calculator-Info.plist */,
 				45B36F7518845A0E00B902E3 /* InfoPlist.strings */,
 				45B36F7818845A0E00B902E3 /* main.m */,
@@ -230,6 +236,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				45B36F8518845A0E00B902E3 /* Images.xcassets in Resources */,
+				45377AD1188522B60017EDF8 /* button.png in Resources */,
+				45377AD31885231E0017EDF8 /* button2.png in Resources */,
 				45B36F7718845A0E00B902E3 /* InfoPlist.strings in Resources */,
 				45B36F8018845A0E00B902E3 /* Main.storyboard in Resources */,
 			);
@@ -461,6 +469,7 @@
 				45B36F9D18845A0E00B902E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45B36F9E18845A0E00B902E3 /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +478,7 @@
 				45B36FA018845A0E00B902E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
