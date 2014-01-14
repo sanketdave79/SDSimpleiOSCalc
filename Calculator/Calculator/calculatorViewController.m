@@ -43,8 +43,6 @@
     return NO;
 }
 
-
-
 - (float) calculate: (NSString *)screenStr {
     
 //    NSString *operator = nil;
